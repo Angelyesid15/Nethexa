@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>Nethexa Academy</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <style>
+         .custom-orange {
+            color: #FFA500; /* Color naranja */
+         }
+
+         .bg-orange{
+            background-color: rgba(169, 169, 169, 0.8)
+         }
+
+         .navbar {
+            transition: background-color 0.3s ease-in-out; /* Transición suave del color de fondo */
+         }
+
+         .logo-text {
+            font-size: 20px; 
+            font-weight: bold; 
+            margin-top: 8px; 
+         }
+
+         .clients {
+            margin-bottom: 50px; /* Espacio de 50px hacia abajo */
+            padding: 80px 0; /* Añade un espacio interno arriba y abajo para separación visual */
+            background-color: #ffffff; /* Color de fondo opcional para resaltar la sección */
+            text-align: center; /* Centra el contenido */
+         }
+
+        .contact {
+            padding: 50px 0; /* Añade un espacio interno arriba y abajo para separación visual */
+            text-align: center; /* Centra el contenido */
+         }
+
+        .clients h2,
+        .contact h3 {
+            margin-bottom: 30px; /* Espacio inferior para el título */
+         }
+
+         .location_icon li {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+         }
+
+        .location_icon i {
+            font-size: 40px; /* Tamaño base de los íconos */
+            transition: transform 0.3s ease; /* Transición suave para el efecto de zoom */
+         }
+
+        .location_icon i:hover {
+            transform: scale(1.5); /* Escala al 150% cuando se pasa el mouse por encima */
+         }
+
+       </style>
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section fluid">"
+                     <div class="full">
+                        <div class="center-desk">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-7 col-md-9 col-sm-10 fluid">
+                     <nav class="navbar navbar-light bg-orange fixed-top">
+                        <div class="container-fluid">
+                            <div class="logo d-flex align-items-center">
+                                <a href="index.html">
+                                    <img src="images/nethexa_academy.png" alt="Nethexa Academy"/>
+                                </a>
+                                <span class="navbar-text ms-2 logo-text">Nethexa Academy</span>
+                            </div>
+                            <div class="ml-auto d-flex align-items-center">
+                                <a href="#contacto" class="btn btn-primary mr-2">Contáctanos</a>
+                                <a href="#servicios" class="btn btn-primary mr-2">Servicios</a>
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit" style="color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); background-color: rgb(224, 224, 224);">Buscar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1 class="custom-green"> <span class="custom-orange">bienvenido <br></span class="custom-orange">Nethexa Academy</h1>
+                           <figure><img class="rounded" src="images/imagen-header.jpg" alt="#"/></figure>
+                           <a class="read_more" href="#contacto">Obtener ahora</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1> <span class="blu"> <br></span>Nethexa Academy</h1>
+                           <figure><img src="images/curso1.png" alt="#"/></figure>
+                           <a class="read_more" href="#contacto">Obtener ahora</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- about section -->
+      <div class="about">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="about_img">
+                     <figure><img src="images/header_2.png" alt="#" /></figure>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="titlepage">
+                     <h2>Potencia tu futuro con nosotros</h2>
+                     <p>¡Transfórmate en un profesional del aprendizaje en Nethexa Academy!
+                         Únete ahora mismo a nuestra plataforma y aumenta tu potencial con habilidades excepcionales.
+                         ¡Tu viaje hacia el conocimiento comienza aquí!</p>
+                  </div>
+                  <a class="read_more" href="#contacto">Adquierelo aquí</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section -->
+      <!-- Nuestros servicios -->
+      <div class="glasses" id="servicios">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage">
+                     <h2>Nuestros servicios</h2>
+                     <p>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="glasses_box rounded bg-light-blue">
+                        <figure><img src="images/servicio-5.png" alt="Servicios Gestionados TI"/></figure>
+                        <p>Servicios Gestionados TI</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="glasses_box rounded bg-light-blue">
+                        <figure><img src="images/servicio-2.png" alt="Redes y Seguridad"/></figure>
+                        <p>Redes y Seguridad</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="glasses_box rounded bg-light-blue">
+                        <figure><img src="images/servicio-7.png" alt="Call Center"/></figure>
+                        <p>Call Center</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="glasses_box rounded bg-light-blue">
+                        <figure><img src="images/servicio-4.png" alt="E-learning"/></figure>
+                        <p>E-learning</p>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <a class="read_more" href="#contacto">Inscríbete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+      <!-- end Our shop section -->
+      <!-- clients section -->
+    <div class="clients">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="titlepage">
+                      <h2>Nuestros clientes</h2>
+                      <p>"Palabras de nuestros estudiantes: ¡Su éxito habla por sí mismo.!"</p>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide clients_Carousel " data-ride="carousel">
+                      <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <div class="container">
+                                  <div class="carousel-caption">
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                              <div class="clients_box">
+                                                  <figure><img src="images/reseña-1.webp" alt="#"/></figure>
+                                                  <h3>María Rodríguez</h3>
+                                                  <p>Gracias a estos cursos, obtuve la certificación que necesitaba para avanzar en mi carrera.</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="container">
+                                  <div class="carousel-caption">
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                              <div class="clients_box">
+                                                  <figure><img src="images/reseña-2.webp" alt="#"/></figure>
+                                                  <h3>Carlos Sánchez</h3>
+                                                  <p>Los cursos virtuales de esta plataforma me han permitido mejorar mis habilidades profesionales desde la comodidad de mi hogar.</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="container">
+                                  <div class="carousel-caption">
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                              <div class="clients_box">
+                                                  <figure><img src="images/reseña-3.webp" alt="#"/></figure>
+                                                  <h3>Sandy Mark</h3>
+                                                  <p>La experiencia de aprendizaje ha sido increíble. Los materiales interactivos y las tutorías en vivo me ayudaron a entender temas complejos de manera sencilla.</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                          <i class='fa fa-angle-left'></i>
+                      </a>
+                      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                          <i class='fa fa-angle-right'></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- end clients section -->
+
+  <!-- contact section -->
+  <div class="contact" id="contacto">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <form id="request" class="main_form">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <h3>Contáctanos</h3>
+                          </div>
+                          <div class="col-md-12">
+                              <input class="contactus" placeholder="Nombre" type="text" name="Name">
+                          </div>
+                          <div class="col-md-12">
+                              <input class="contactus" placeholder="Número de contacto" type="tel" name="Phone">
+                          </div>
+                          <div class="col-md-12">
+                              <input class="contactus" placeholder="Correo electrónico" type="email" name="Email">
+                          </div>
+                          <div class="col-md-12">
+                              <textarea class="contactusmess" placeholder="Mensaje" name="Message"></textarea>
+                          </div>
+                          <div class="col-md-12">
+                              <button class="send_btn" type="submit">Enviar</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid">
+          <div class="map_section">
+              <div id="map">
+                  <!-- Mapa de nethexa -->
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--  end -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 offset-md-2">
+                     <ul class="location_icon">
+                        <li>
+                           <a href="https://www.linkedin.com/company/grupo-nethexa/" target="_blank">
+                               <i class="fab fa-linkedin" aria-hidden="true"></i>
+                           </a><br> LinkedIn
+                       </li>
+                       <li>
+                        <a href="https://www.facebook.com/nethexa/" target="_blank">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                        </a><br> Facebook
+                    </li> 
+                    <li>
+                     <a href="https://x.com/i/flow/login?redirect_after_login=%2Fnethexa" target="_blank">
+                         <i class="fab fa-twitter" aria-hidden="true"></i>
+                     </a><br> Twitter
+                     <li>
+                        <a href="mailto:Nethexaacademy@gmail.com" target="_blank">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </a><br> Correo
+                    </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p href="https://nethexa.com">2024 Grupo Nethexa, S.A.S ©<a>     |     Tecnologías convergentes.</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+         function initMap() {
+             // Coordenadas de Grupo Nethexa SAS
+             var nethexaLocation = {lat: 6.230833, lng: -75.590553};
+             
+             // Creación del mapa centrado en Grupo Nethexa SAS
+             var map = new google.maps.Map(document.getElementById('map'), {
+                 zoom: 15,
+                 center: nethexaLocation
+             });
+             
+             // Marcador en Grupo Nethexa SAS
+             var marker = new google.maps.Marker({
+                 position: nethexaLocation,
+                 map: map,
+                 title: 'Grupo Nethexa SAS'
+             });
+         }
+
+         $(window).scroll(function() {
+            if ($(this).scrollTop() > 50) {
+            $('.navbar').addClass('bg-orange');
+            } else {
+            $('.navbar').removeClass('bg-orange');
+            }
+         });
+
+         document.getElementById("request").addEventListener("submit", function(event) {
+            // Evitar que el formulario se envíe normalmente
+            event.preventDefault();
+
+            // Mostrar alerta de confirmación
+            alert("¡Mensaje enviado correctamente. Nos contactaremos contigo lo más pronto posible.!");
+
+            //Se usa para limpiar los campos del formulario, después de enviado
+            document.getElementById("request").reset();
+         });
+     </script>
+      <!-- google map js -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js --> 
+   </body>
+</html>
+
